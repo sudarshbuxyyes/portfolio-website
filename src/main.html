@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+
+    <title>Sudarshan Buxy</title>
+    <meta name="title" content="Sudarshan Buxy" />
+    <meta
+      name="description"
+      content="Portfolio website to showcase my projects and interests..."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="Sudarshan Buxy" />
+    <meta
+      property="og:description"
+      content="Portfolio website to showcase my projects and interests..."
+    />
+    <meta property="og:image" content="./images/project-one-image.jpg" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="" />
+    <meta property="twitter:title" content="Sudarshan Buxy" />
+    <meta
+      property="twitter:description"
+      content="Portfolio website to showcase my projects and websites..."
+    />
+    <meta property="twitter:image" content="./images/project-one-image.jpg" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link
+      rel="manifest"
+      type="application/manifest+json"
+      href="manifest.webmanifest"
+    />
+    <script>
+      async;
+      src = "https://www.googletagmanager.com/gtag/js?id=G-2GX591W4V3";
+    </script>
+    <link
+      rel="stylesheet"
+      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <div id="loader">
+      <div id="wrapperload">
+        <div class="elem">
+          <img src="./images/toppng.png" />
+        </div>
+        <div class="elem">
+          <h5>Developer</h5>
+        </div>
+        <div class="elem">
+          <h5>Machine Learning Enthusiast</h5>
+        </div>
+      </div>
+    </div>
+    <div class="right-side-email">
+      <a href="mailto:sudarshan19279@iiitd.ac.in">
+        <p>sudarshan19279@iiitd.ac.in</p>
+      </a>
+    </div>
+    <div class="container">
+      <header class="header">
+        <div class="nav-header">
+          <!--<button class="logo-btn">
+            <img src="" alt="logo" class="logo" />
+          </button>-->
+          <button class="menu-btn">
+            <i class="fas fa-bars fa-3x header-icon"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="#about-section" class="nav-link">
+            <p>About Me</p>
+          </a>
+          <a href="#projects-section" class="nav-link">
+            <p>Projects</p>
+          </a>
+          <a href="#contacts-section" class="nav-link">
+            <p>Contact</p>
+          </a>
+        </div>
+      </header>
+      <main class="main-container">
+        <section class="intro-section" id="intro-section">
+          <div class="intro-data">
+            <div class="title">
+              <h1>Sudarshan Buxy</h1>
+              <h3 class="title-position">Software Developer</h3>
+            </div>
+            <p class="title-description">
+              I'm a developer from New Delhi, India and I like to write code to
+              build cool things.
+            </p>
+            <a class="reach-me-btn" href="mailto:karapandzicmarkol@gmail.com"
+              >Reach Me</a
+            >
+            <div class="scroll-container">
+              <img
+                src="./images/scroll-gesture.png"
+                alt="scroll gesture"
+                class="scroll-gesture-img"
+              />
+            </div>
+          </div>
+          <div class="intro-image-logo">
+            <script
+              type="module"
+              src="https://unpkg.com/@rocktimsaikia/github-card@latest?module"
+            ></script>
+            <github-card data-user="sudarshbuxyyes" data-theme = "dark"></github-card>
+
+          </div>
+        </section>
+        <section class="about-section" id="about-section">
+          <h1 class="about-me-title">About Me</h1>
+          <p class="about-text">
+            Hi there! I'm Sudarshan Buxy. and I'm a developer from New Delhi,
+            India.
+          </p>
+          <p class="about-text">
+            I'm currently a full-time undergraduate student studying Computer
+            Science and Applied Mathematics at
+            <a href="https://www.iiitd.ac.in/">IIIT-Delhi</a>. I like building
+            things which are fun and useful. I particularly enjoy creating
+            ML-driven applications which are useful and have proper performant
+            functionality.
+          </p>
+          <p class="about-text"></p>
+          <p class="about-text">
+            Here are some of the languages, libraries and environments I'm
+            familiar with:
+          </p>
+          <div class="tagskills">
+            <script type="text/javascript" src="TagCloud.min.js"></script>
+            <script>
+              myTags = [
+                "Python",
+                "Java",
+                "R",
+                "Matlab",
+                "SQL",
+                "Scikit-learn",
+                "Pandas",
+                "Numpy",
+                "Android",
+                "Kotlin",
+                "Jupyter",
+                "OpenCV",
+                "Keras",
+                "ntlk",
+                "Tensorflow",
+              ];
+              var TagCloud = TagCloud(".tagskills", myTags, {
+                radius: 250,
+
+                // animation speed
+                // slow, normal, fast
+                maxSpeed: "normal",
+                initSpeed: "slow",
+
+                // 0 = top
+                // 90 = left
+                // 135 = right-bottom
+                direction: 135,
+
+                // interact with cursor move on mouse out
+                keep: true,
+              });
+            </script>
+          </div>
+        </section>
+        <section class="projects-section" id="projects-section">
+          <h1 class="projects-title">
+            Here are some of my projects over the past year:
+          </h1>
+
+          <div class="projects-container">
+            <div class="project">
+              <div class="project-data">
+                <div class="project-header">
+                  <h3 class="project-title">Percepio 2.0: Writing in Air</h3>
+                  <div class="project-icons">
+                    <a href="https://github.com/plibither8/percepio-2.0">
+                      <i class="fab fa-github fa-2x project-icon"></i
+                    ></a>
+                    <a href="https://percepio.vercel.app/"
+                      ><i
+                        class="fas fa-external-link-alt fa-2x project-icon"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+                <p class="project-desc">
+                  Designed a wearable which allowed the user to write on any
+                  surface by tracking finger movements and digitizing them. It
+                  involved Computer Vision(OpenCV) and a Deep Learing model for
+                  finger tracking and a character recognition model with a
+                  real-time implementation. Taking notes made simple- in air, on
+                  the go.
+                </p>
+                <div class="project-tags">
+                  <div class="tag">
+                    <p>OpenCV</p>
+                  </div>
+                  <div class="tag">Keras</div>
+                  <div class="tag">Character-Recognition</div>
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-data">
+                <div class="project-header">
+                  <h3 class="project-title">
+                    Text Classification Model using NLP
+                  </h3>
+                  <div class="project-icons">
+                    <a href="https://github.com/plibither8/percepio-2.0">
+                      <i class="fab fa-github fa-2x project-icon"></i
+                    ></a>
+                    <a href="https://percepio.vercel.app/"
+                      ><i
+                        class="fas fa-external-link-alt fa-2x project-icon"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+                <p class="project-desc">
+                  A Classification model for tweets scraped from twitter to
+                  separate tweets which are related to natural disasters and
+                  such, from phases which have similar phrases but are being
+                  used in a different context. The model uses natural language
+                  processing to distinguish between the tweets which have
+                  similar words but different connotations.
+                </p>
+                <div class="project-tags">
+                  <div class="tag">
+                    <p>NLP</p>
+                  </div>
+                  <div class="tag">
+                    <p>Classification Model</p>
+                  </div>
+                  <div class="tag">
+                    <p>nltk</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-data">
+                <div class="project-header">
+                  <h3 class="project-title">
+                    Recommender System for Media-Database Platform
+                  </h3>
+                  <div class="project-icons">
+                    <a
+                      href="https://github.com/sudarshbuxyyes/Recommender_Seance"
+                    >
+                      <i class="fab fa-github fa-2x project-icon"></i
+                    ></a>
+                    <a
+                      href="https://github.com/sudarshbuxyyes/Recommender_Seance"
+                      ><i
+                        class="fas fa-external-link-alt fa-2x project-icon"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+                <p class="project-desc">
+                  This recommender system was designed to recommend movies,
+                  manga, games, shows, anime and all other forms of media
+                  specific to the horror genre from the media database Platform.
+                  It involves the use of a user-based collaborative filtering
+                  for recommending all of the mentioned forms of media depending
+                  on the previously watched and starred shows of a user.
+                  Designed as a slightly tweaked version of a neighborhood-based
+                  recommendation model.
+                </p>
+                <div class="project-tags">
+                  <div class="tag">
+                    <p>Recommender System</p>
+                  </div>
+                  <div class="tag">
+                    <p>Databases</p>
+                  </div>
+                  <div class="tag">
+                    <p>Unsupervised Machine Learning</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-data">
+                <div class="project-header">
+                  <h3 class="project-title">
+                    Deep Reinforcement Learning Model for Algorithmic Trading
+                  </h3>
+                </div>
+                <p class="project-desc">
+                  Implementation of a Deep Reinforcement Learning paper to solve
+                  the algorithmic trading problem of determining the optimal
+                  trading position by using Deep QN to maximise the Sharpe ratio
+                  performance. (Ongoing)
+                </p>
+                <div class="project-tags">
+                  <div class="tag">
+                    <p>Reinforcement Learning</p>
+                  </div>
+                  <div class="tag">
+                    <p>DQN</p>
+                  </div>
+                  <div class="tag">
+                    <p>Algorithmic Trading</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <p class="project-title">Miscellaneous:</p>
+            <div class="project">
+              <div class="project-data">
+                <div class="project-header">
+                  <h3 class="project-title">Magic Mirror Build</h3>
+                </div>
+                <p class="project-desc">
+                  Used existing Open-source modules and a few of my own to build
+                  a smart mirror for myself to display things like the news, the
+                  weather, my tasks for the day and calendar. Integrating it
+                  with Google, Spotify and Alexa using the APIs allowed seamless
+                  user experience with other google apps like Keep and for
+                  streaming music.
+                </p>
+
+                <div class="project-tags">
+                  <div class="tag">
+                    <p>RaspberryPi</p>
+                  </div>
+                  <div class="tag">
+                    <p>NodeJS</p>
+                  </div>
+                  <div class="tag">
+                    <p>WebAPIs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-data">
+                <div class="project-header">
+                  <h3 class="project-title">
+                    Prototype for mini-arcade gaming machine
+                  </h3>
+                </div>
+                <p class="project-desc">
+                  Built a prototype for a miniature arcade gaming machine using
+                  Arduino, USD sensors and a pacman-ish capture the flag
+                  multiplayer game for the system in JS.
+                </p>
+
+                <div class="project-tags">
+                  <div class="tag">
+                    <p>Arduino</p>
+                  </div>
+                  <div class="tag">
+                    <p>Processing</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="research-section" id="research-section">
+          <h1 class="projects-title">Research Work:</h1>
+          <p>Research activities I've been involved in for the past year:</p>
+          <div class="projects-container">
+            <div class="project">
+              <div class="project-data">
+                <div class="project-header">
+                  <h4 class="project-title">
+                    Contributed to a survey paper on the applications of Machine
+                    Learning in Optical Networks
+                  </h4>
+                </div>
+                <p class="project-desc">
+                  Studied and surveyed research papers on the applications of
+                  machine learning techniques in Optical networks, particularly
+                  in multi-band Raman Gain Amplifiers and Failure Management in
+                  Optical Networks. My contributions to the study included the
+                  scope of applications and the use of supervised and
+                  unsupervised machine learning algorithms in various areas of
+                  optical networks.
+                </p>
+                <div class="project-icons">
+                  <a href=""
+                    ><i class="fas fa-external-link-alt fa-2x project-icon"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <h4 class="project-title">
+              Currently researching applications of machine learning in network
+              survivability of optical networks.
+            </h4>
+          </div>
+        </section>
+        <section class="contact-section" id="contact-section">
+          <h1>Contact</h1>
+          <p>
+            Feel free to get in touch with me. The best way to do so would be
+            via email or <a href="https://t.me/sudarshbuxyyes">Telegram</a>. I'm
+            always interested in working with people on fun projects.
+          </p>
+          <p>Currently not accepting any freelance projects.</p>
+          <a href="mailto:sudarshan19279@iiitd.ac.in" class="reach-me-btn"
+            >Mail</a
+          >
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="social-icons">
+
+          <a
+            href="https://github.com/sudarshbuxyyes"
+            target="_blank"
+            rel="noopener"
+          >
+            <i class="fab fa-github fa-2x sidebar-btn"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/sudarshan-buxy-0277181b0/"
+            target="_blank"
+            rel="noopener"
+            ><i class="fab fa-linkedin-in fa-2x sidebar-btn"></i
+          ></a>
+        </div>
+        <p>Designed and built by Sudarshan.</p>
+      </footer>
+    </div>
+    <script src="js/main.js" type="module" defer></script>
+  </body>
+</html>
